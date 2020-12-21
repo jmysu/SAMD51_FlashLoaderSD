@@ -55,7 +55,7 @@ https://github.com/jmysu/SAMD51_FlashLoaderSD/tree/main/PlatformIO.projects/wioT
 __Project WiFi Analyzer__<br>
 Project to display 2.4G/5G WiFi channels, need latest RPC firmware 2.0.4+ <br>
 https://github.com/jmysu/SAMD51_FlashLoaderSD/tree/main/PlatformIO.projects/wioTerminal_WiFiAnalyzer<br>
-<img src="pic/SdLoaderApps/WiFiAnalyzer0.jpg" width=320> <img src="pic/SdLoaderApps/WiFiAnalyzer1.jpg" width=320> <br>
+<img src="pic/SdLoaderApps/WiFiAnalyzer0.jpg" width=320> <img src="pic/SdLoaderApps/WiFiAnalyer1.jpg" width=320> <br>
 <br>
 <br>
 __Project WiFi NTP Clock__<br>
