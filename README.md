@@ -25,7 +25,7 @@ https://github.com/jmysu/SAMD51_FlashLoaderSD/blob/main/PlatformIO.projects/wioT
 __Project SdUSB__ w/ TinyUSB<br>
 Project to turn SD card into USB Mass Storage, for updating SD contents! <br>
 https://github.com/jmysu/SAMD51_FlashLoaderSD/tree/main/PlatformIO.projects/wioTerminal_SdUSB<br>
-<img src="/pic/SdLoaderApps/USB0.png" width=320> <img src="/pic/SdLoaderApps/USB1.png" width=320> <br>
+<img src="pic/SdLoaderApps/USB0.png" width=320> <img src="pic/SdLoaderApps/USB1.png" width=320> <br>
 <br>
 <br>
 __Project SdSlideShow__ w/ JPEGDEC<br>
