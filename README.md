@@ -51,5 +51,6 @@ https://github.com/jmysu/SAMD51_FlashLoaderSD/tree/main/PlatformIO.projects/wioT
 
 ## References
   - [extFlashLoader](https://github.com/ciniml/ExtFlashLoader) WioTerminal extFlashLoader library from SD card.
+  - [WioTerminal Flash Loader](https://github.com/ciniml/WioTerminalSimpleLoader) MPLAB Harmony Flash Loader from SD.
   - [LovYanGFX](https://github.com/lovyan03/LovyanGFX) Another nice library for Arduino TFT.
   - [JPEGDEC](https://github.com/bitbank2/JPEGDEC) Another optimized JPEG Decoder for Arduino.
