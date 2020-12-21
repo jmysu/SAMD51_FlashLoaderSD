@@ -1,0 +1,35 @@
+/*
+ * SD Launch App Template
+ *
+ */
+#include <Arduino.h>
+
+#include <TFT_eSPI.h>
+#include <cstdint>
+#include <ExtFlashLoader.h>
+
+TFT_eSPI tft;
+
+void setup() {
+    //Init TFT Display
+    tft.begin();
+    tft.setRotation(3);
+    tft.fillScreen(0);
+    //Check KEY_A pressed?
+    pinMode(WIO_KEY_A, INPUT_PULLUP);
+    if( digitalRead(WIO_KEY_A) == LOW) {
+      tft.printf("Launching QSPI application\r\n");
+      ExtFlashLoader::ExtFlashLoader loader;
+      }
+
+    //-------------------------------------------------------------------------
+    tft.printf("Normal flash application\r\n");
+
+    Serial.begin(115200);
+    while(!Serial);
+    //--------------------------------------------------------------------------
+}
+
+void loop() {
+
+}

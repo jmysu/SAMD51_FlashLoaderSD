@@ -1,0 +1,56 @@
+/************************************************************************
+  M5StackFire I2C Scanner
+  The M5StackFire has a connector for I2C devices. 
+  This program scans the addresses 1-127 continuosly and shows 
+  the devices found on the TFT.
+  The M5Stack fire has two internal I2C devices at address 0x68 and 0x75.
+  
+  If they do not appear on the TFT it could mean you made a short cut on 
+  the I2C bus.
+  October 2018, ChrisMicro
+************************************************************************/
+#include <Arduino.h>
+#include <TFT_eSPI.h>
+#include <Wire.h>
+extern TFT_eSPI tft;
+
+extern void checkSdLaunch();
+
+void setup() {
+    checkSdLaunch();
+    delay(1000);
+    
+    tft.fillScreen(TFT_BLACK);
+    tft.setCursor(0, 0);
+    tft.println("I2C scanner... [HEX]");
+
+    Wire.begin();
+}
+
+int16_t textcolor = TFT_DARKGREY;
+
+void loop() {
+    int address;
+    int error;
+
+    tft.setCursor(0, 16);
+    for (address = 1; address < 127; address++) {
+        Wire.beginTransmission(address);
+        error = Wire.endTransmission();
+        //if (error == 0) {
+        Wire.beginTransmission(address+1); // Special action for SAMD Series
+        if (error == 0 && Wire.endTransmission() != 0 ) { // Special flag for SAMD Series
+            tft.setTextColor(TFT_GREENYELLOW);
+            tft.print(address, HEX);
+        } else {
+            tft.setTextColor(textcolor);
+            tft.print(".");
+            }
+        delay(10);
+        }
+
+    if (textcolor==TFT_DARKGREY) 
+        textcolor = TFT_LIGHTGREY;
+    else
+        textcolor = TFT_DARKGREY;
+}
