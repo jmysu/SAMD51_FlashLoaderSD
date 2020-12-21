@@ -1,5 +1,7 @@
 # SAMD51_FlashLoaderSD [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)<br>
 Interesting projects based on extFlashLoader, with more apps added! 
+You need to flash the loader menu from extFlashLoader examples first, then copy the unzipped /apps into SD /apps!
+Press the KEY_A and reset the WioTerminal, the SD menu should start...
 <br>
 
 
@@ -14,7 +16,7 @@ The memory map for different NVM...<br>
 <br><br><br>
 
 __Zipped apps__ <br>
-The zipped apps binary for following projects!<br>
+The zipped apps binary for the following projects! Unzip this and place /apps into SD /apps<br>
 https://github.com/jmysu/SAMD51_FlashLoaderSD/blob/main/PlatformIO.projects/wioTerminal__SdLauncher_Apps.zip
 <br>
 <br>
