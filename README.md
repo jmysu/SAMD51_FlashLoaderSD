@@ -11,13 +11,18 @@ Interesting projects based on extFlashLoader
 __SAMD51 Memory Map__ <br>
 <img src="pic/SAMD51NVM.png" width=480><br>
 The memory map for different NVM...<br>
-<br><br>
+<br><br><br>
+
 __Project SdUSB__ w/ TinyUSB<br>
 Project to turn SD card into USB Mass Storage <br>
 https://github.com/jmysu/SAMD51_FlashLoaderSD/tree/main/PlatformIO.projects/wioTerminal_SdUSB<br>
 <br>
 <br>
-
+__Project SdSlideShow__ w/ TinyUSB<br>
+Project to decode JPEG file on SD <br>
+https://github.com/jmysu/SAMD51_FlashLoaderSD/tree/main/PlatformIO.projects/wioTerminal_JPEGDEC<br>
+<br>
+<br>
 
 ## References
   - [extFlashLoader](https://github.com/ciniml/ExtFlashLoader) WioTerminal extFlashLoader library from SD card.
