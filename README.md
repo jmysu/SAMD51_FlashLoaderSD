@@ -18,7 +18,7 @@ Project to turn SD card into USB Mass Storage <br>
 https://github.com/jmysu/SAMD51_FlashLoaderSD/tree/main/PlatformIO.projects/wioTerminal_SdUSB<br>
 <br>
 <br>
-__Project SdSlideShow__ w/ TinyUSB<br>
+__Project SdSlideShow__ w/ JPEGDEC<br>
 Project to decode JPEG file on SD <br>
 https://github.com/jmysu/SAMD51_FlashLoaderSD/tree/main/PlatformIO.projects/wioTerminal_JPEGDEC<br>
 <br>
@@ -44,7 +44,7 @@ https://github.com/jmysu/SAMD51_FlashLoaderSD/tree/main/PlatformIO.projects/wioT
 <br>
 <br>
 __Project WiFi NTP Clock__<br>
-Project to disply a NTP clock <br>
+Project to disply a NTP clock, need latest RPC firmware 2.0.4+ <br>
 https://github.com/jmysu/SAMD51_FlashLoaderSD/tree/main/PlatformIO.projects/wioTerminal_WiFi_NTP<br>
 <br>
 <br>
