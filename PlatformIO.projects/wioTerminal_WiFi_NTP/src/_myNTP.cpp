@@ -166,7 +166,7 @@ void setup()
   setupTFT();
 
   Serial.println("TimeNTP Example");
-  connectToWiFi("BreezeHill_50","0932902190");
+  connectToWiFi("BreezeHillxxx","0932xxxxxx");
 
   digitalClockDisplay();
   Serial.println("waiting for sync");
