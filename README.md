@@ -23,12 +23,12 @@ https://github.com/jmysu/SAMD51_FlashLoaderSD/blob/main/PlatformIO.projects/wioT
 <br>
 
 __Project SdUSB__ w/ TinyUSB<br>
-Project to turn SD card into USB Mass Storage <br>
+Project to turn SD card into USB Mass Storage, for updating SD contents! <br>
 https://github.com/jmysu/SAMD51_FlashLoaderSD/tree/main/PlatformIO.projects/wioTerminal_SdUSB<br>
 <br>
 <br>
 __Project SdSlideShow__ w/ JPEGDEC<br>
-Project to decode JPEG file on SD <br>
+Project to decode/show JPEG files on SD, put jpeg files into SD /TFT floder! <br>
 https://github.com/jmysu/SAMD51_FlashLoaderSD/tree/main/PlatformIO.projects/wioTerminal_JPEGDEC<br>
 <br>
 <br>
@@ -38,12 +38,12 @@ https://github.com/jmysu/SAMD51_FlashLoaderSD/tree/main/PlatformIO.projects/wioT
 <br>
 <br>
 __Project Gyro Leveler__<br>
-Project for gyro leveler (LIS3DHTR) <br>
+Project for gyro leveler (internal LIS3DHTR) <br>
 https://github.com/jmysu/SAMD51_FlashLoaderSD/tree/main/PlatformIO.projects/wioTerminal_Gyro<br>
 <br>
 <br>
 __Project VcSel Ranger__<br>
-Project for VcSel laser VL53L0X ranger <br>
+Project for VcSel laser ranger (external VL53L0X) <br>
 https://github.com/jmysu/SAMD51_FlashLoaderSD/tree/main/PlatformIO.projects/wioTerminal_VL53L0X_Ranger<br>
 <br>
 <br>
