@@ -13,6 +13,12 @@ __SAMD51 Memory Map__ <br>
 The memory map for different NVM...<br>
 <br><br><br>
 
+__Zipped apps__ <br>
+The zipped apps binary for following projects!<br>
+https://github.com/jmysu/SAMD51_FlashLoaderSD/blob/main/PlatformIO.projects/wioTerminal__SdLauncher_Apps.zip
+<br>
+<br>
+
 __Project SdUSB__ w/ TinyUSB<br>
 Project to turn SD card into USB Mass Storage <br>
 https://github.com/jmysu/SAMD51_FlashLoaderSD/tree/main/PlatformIO.projects/wioTerminal_SdUSB<br>
