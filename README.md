@@ -12,7 +12,7 @@ Press/hold the KEY_A and reset the WioTerminal, the SD-Loader menu should start.
 
 
 __SAMD51 Memory Map__ <br>
-<img src="pic/SAMD51NVM.png" width=480> <img src="pic/SdLoader2020.gif" width=240><br>
+<img src="pic/SAMD51NVM.png" width=480> <img src="pic/SdLoader2020.gif" width=200><br>
 The memory map for different NVM...<br>
 <br><br><br>
 
