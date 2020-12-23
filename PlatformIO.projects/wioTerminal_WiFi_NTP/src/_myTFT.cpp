@@ -21,7 +21,7 @@ void drawClockFace() {
     r = min(cx, cy) - 25;
     cy1 = cy + 25;  //adjust y position w/ header
     tft.fillCircle(cx, cy1, r - 2, TFT_BLUE);
-    tft.fillCircle(cx, cy1, r - 10, TFT_TRANSPARENT);
+    tft.fillCircle(cx, cy1, r - 8, TFT_TRANSPARENT);
 
     // Draw 12 lines
     for (int i = 0; i < 360; i += 30) {
@@ -50,7 +50,7 @@ void drawClockFace() {
 }
 
 uint8_t hh, mm, ss;
-bool isInit =1;
+bool isInitClock =1;
 void drawClockHands() {
     hh = hour();
     mm = minute();
@@ -78,7 +78,7 @@ void drawClockHands() {
     sx = cos((sdeg - 90) * 0.0174532925);
     sy = sin((sdeg - 90) * 0.0174532925);
 
-    if (ss == 0 || isInit) {
+    if ( (ss==0) || isInitClock) {
         // Erase hour and minute hand positions every minute
         tft.drawLine(ohx, ohy, cx, cy1, TFT_BLACK);
         ohx = hx * (r-48) + cx;
@@ -100,17 +100,36 @@ void drawClockHands() {
     tft.fillCircle(cx, cy1, 3, TFT_RED);
 }
 
+extern void draw7Number(long n, unsigned int xLoc, unsigned int yLoc, char cS, unsigned int fC, unsigned int bC, char nD);
 void drawClockDigits()
 {
     char sBuf[16];
-    sprintf(sBuf, "%02d:%02d:%02d", hour(), minute(), second());
+
+    if ( (second()<10) || (second()>50) || isInitClock) { //Draw Year-Month-Day
+        int c = tft.width()/2;
+        draw7Number(8888,      c-60, 100, 1, TFT_BLACK , TFT_BLACK, 4);      
+        draw7Number(-88,       c-6,  100, 1, TFT_BLACK , TFT_BLACK, 3);       
+        draw7Number(-88,       c+30, 100, 1, TFT_BLACK , TFT_BLACK, 3);        
+        draw7Number(year(),    c-60, 100, 1, TFT_LIGHTGREY , TFT_BLACK, 4);       
+        draw7Number(month()*-1,c-6,  100, 1, TFT_LIGHTGREY , TFT_BLACK, 3);        
+        draw7Number(day()*-1,  c+30, 100, 1, TFT_LIGHTGREY , TFT_BLACK, 3);       
+        }
     spr.createSprite(220, 48);
+    spr.fillSprite(TFT_BLACK);
     spr.setTextDatum(MC_DATUM);
-    spr.setTextColor(TFT_ORANGE, TFT_BLACK);
+
+    sprintf(sBuf, "88:88:88");
+    spr.setTextColor(tft.color565(80,80,80)); //Dark Grey to erase digits 
     spr.drawString(sBuf, 0, 0, 7); //draw text
-    spr.pushSprite(tft.width()/2 - 110, tft.height()-64);
+    
+    sprintf(sBuf, "%02d:%02d:%02d", hour(), minute(), second());
+    spr.setTextColor(TFT_ORANGE);
+    spr.drawString(sBuf, 0, 0, 7); //draw text
+
+    spr.pushSprite(tft.width()/2 - 110, tft.height()-64, TFT_BLACK);
     spr.deleteSprite();
 }
+
 
 void setupTFT() {
     tft.init();
