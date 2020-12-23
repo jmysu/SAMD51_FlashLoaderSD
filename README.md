@@ -18,7 +18,7 @@ The memory map for different NVM...<br>
 
 __Zipped apps__ <br>
 The zipped apps binary for the following projects! Unzip this and place /apps into SD /apps<br>
-https://github.com/jmysu/SAMD51_FlashLoaderSD/blob/main/PlatformIO.projects/wioTerminal__SdLauncher_Apps.zip
+https://github.com/jmysu/SAMD51_FlashLoaderSD/blob/main/PlatformIO.projects/apps.zip<br>
 <br>
 <br>
 
