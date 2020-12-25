@@ -61,7 +61,7 @@ https://github.com/jmysu/SAMD51_FlashLoaderSD/tree/main/PlatformIO.projects/wioT
 __Project WiFi NTP Clock__<br>
 Project to disply a NTP clock, need latest RPC firmware 2.0.4+ <br>
 https://github.com/jmysu/SAMD51_FlashLoaderSD/tree/main/PlatformIO.projects/wioTerminal_WiFi_NTP<br>
-<img src="pic/SdLoaderApps/NTP0.jpg" width=320> <img src="pic/SdLoaderApps/NTP1.jpg" width=320> <br>
+<img src="pic/SdLoaderApps/NTP0.jpg" width=320> <img src="pic/SdLoaderApps/NTPTimer1225.gif" width=320> <br>
 <br>
 <br>
 
