@@ -1,9 +1,9 @@
 # SAMD51_FlashLoaderSD [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)<br>
 ### Interesting projects based on extFlashLoader, with more apps added! <br>
-You need to flash the loader menu from extFlashLoader examples first, then copy the unzipped /apps into SD /apps!<br>
+You need to _flash the loader menu from extFlashLoader examples first_, then copy the unzipped /apps into SD /apps!<br>
 Press/hold the KEY_A and reset the WioTerminal, the SD-Loader menu should start...<br>
 (Works with WioTerminal(SAMD51+ILI9341))<br>
-### UF2 firmware update:<br>
+#### UF2 firmware update:<br>
 Use [bin2uf2.py](https://github.com/jmysu/SAMD51_FlashLoaderSD/blob/main/PlatformIO.projects/bin2uf2.py) (_from Microsoft open source_) to convert SDMENU firmware.bin to sdmenu0x4000.uf2, drag and drop to UF2 bootloader!<br>
 <img src="PlatformIO.projects/sdmenu_bin2uf2.jpg" width=800>
 
