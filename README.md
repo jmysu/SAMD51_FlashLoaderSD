@@ -19,6 +19,9 @@ The memory map for different NVM...<br>
 __Zipped apps__ <br>
 The zipped apps binary for the following projects! Unzip this and place /apps into SD /apps<br>
 https://github.com/jmysu/SAMD51_FlashLoaderSD/blob/main/PlatformIO.projects/apps.zip<br>
+Use [bin2uf2.py](https://github.com/jmysu/SAMD51_FlashLoaderSD/blob/main/PlatformIO.projects/bin2uf2.py) to convert firmware.bin to sdmenu0x4000.uf2<br>
+<img src="pic/SAMD51NVM.png" width=480>
+
 <br>
 <br>
 
