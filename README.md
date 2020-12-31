@@ -24,7 +24,7 @@ https://github.com/jmysu/SAMD51_FlashLoaderSD/blob/main/PlatformIO.projects/apps
 <br>
 <br>
 
-__Project SdUSB__ w/ TinyUSB<br>
+__Project SdUSB__ w/ Adafruit TinyUSB port<br>
 Project to turn SD card into USB Mass Storage, for updating SD contents! <br>
 https://github.com/jmysu/SAMD51_FlashLoaderSD/tree/main/PlatformIO.projects/wioTerminal_SdUSB<br>
 <img src="pic/SdLoaderApps/USB0.jpg" width=320> <img src="pic/SdLoaderApps/USB1.jpg" width=320> <br>
@@ -74,3 +74,4 @@ https://github.com/jmysu/SAMD51_FlashLoaderSD/tree/main/PlatformIO.projects/wioT
   - [WioTerminal Flash Loader](https://github.com/ciniml/WioTerminalSimpleLoader) MPLAB Harmony Flash Loader from SD.
   - [LovYanGFX](https://github.com/lovyan03/LovyanGFX) Another nice library for Arduino TFT.
   - [JPEGDEC](https://github.com/bitbank2/JPEGDEC) Another optimized JPEG Decoder for Arduino.
+  - [TinyUSB](https://github.com/adafruit/Adafruit_TinyUSB_Arduino) Adafruit TinyUSB port for Arduino.
