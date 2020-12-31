@@ -158,6 +158,7 @@ void setup() {
     iScreenHeight = lgfxTFT.height();
 }
 
+extern int gifPlay(char *gifPath);
 extern bool GetImageSize(File f, int16_t *x, int16_t *y);
 // Main loop, scan for all .JPG files on the card and display them
 void loop() {
@@ -173,7 +174,10 @@ void loop() {
         if (!entry.isDirectory()) {
             const char *name = entry.name();
             const int len = strlen(name);
-            if (len > 3 && strcmp(name + len - 3, "jpg") == 0) {
+            if (len > 3 && strcmp(name + len - 3, "gif") == 0) {
+                gifPlay((char*)name);    
+                }
+            else if (len > 3 && strcmp(name + len - 3, "jpg") == 0) {
                 //Get size from binary
                 int offsetX = 0;
                 int offsetY = 0;

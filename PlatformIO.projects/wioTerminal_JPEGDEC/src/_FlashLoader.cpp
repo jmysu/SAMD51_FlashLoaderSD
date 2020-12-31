@@ -19,6 +19,6 @@ void checkFlashLoader() {
        }
     
     tft.printf("Normal flash application\r\n");
-    Serial.begin(115200);
-    while(!Serial);
+    //Serial.begin(115200);
+    //while(!Serial);
 }
