@@ -33,7 +33,7 @@ https://github.com/jmysu/SAMD51_FlashLoaderSD/tree/main/PlatformIO.projects/wioT
 __Project SdSlideShow__ w/ JPEGDEC<br>
 Project to decode/show JPEG/GIF files on SD, put jpeg/gif files into SD /TFT floder! <br>
 https://github.com/jmysu/SAMD51_FlashLoaderSD/tree/main/PlatformIO.projects/wioTerminal_JPEGDEC<br>
-<img src="pic/SdLoaderApps/Jpeg0.jpg" width=320> <img src="pic/WioTerm1230.gif" width=320> <br>
+<img src="pic/SdLoaderApps/Jpeg0.jpg" width=320> <img src="pic/WioTerm1231.gif" width=320> <br>
 <br>
 <br>
 __Project I2C Test__<br>
