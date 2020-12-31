@@ -69,6 +69,7 @@ https://github.com/jmysu/SAMD51_FlashLoaderSD/tree/main/PlatformIO.projects/wioT
 
 ## References
   - [SAM BA 3](https://github.com/atmelcorp/sam-ba) Microchip/Atmel SAM boot assistant V3 (Win/Linux cmd line).
+  - [bin2uf2](https://github.com/microsoft/uf2-samdx1) USB Mass Storage bootloader (based on UF2) for SAMD21 and SAMD51.
   - [extFlashLoader](https://github.com/ciniml/ExtFlashLoader) WioTerminal extFlashLoader library from SD card.
   - [WioTerminal Flash Loader](https://github.com/ciniml/WioTerminalSimpleLoader) MPLAB Harmony Flash Loader from SD.
   - [LovYanGFX](https://github.com/lovyan03/LovyanGFX) Another nice library for Arduino TFT.
